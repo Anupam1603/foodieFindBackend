@@ -30,6 +30,21 @@ FoodieFinds is a backend system for a food discovery app that helps users search
 ## Installation
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone <repository-url>
    cd FoodieFinds
+2. Install the dependencies
+```
+npm install
+```
+3. Initialize the database
+- Update the initDB.js file's database path to match your project folder.
+- Run the seeder script:
+```
+node <folder_name>/initDB.js
+```
+4. Start the server
+```
+npm start
+```
+
